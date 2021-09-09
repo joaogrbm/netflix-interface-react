@@ -1,5 +1,6 @@
 .movieRow {
     margin-bottom: 30px;
+    overflow-x: hidden;
 }
 
 .movieRow h2 {
@@ -7,8 +8,11 @@
 }
 
 .movieRow--listArea{
-    overflow-x: hidden;
     padding-left: 30px;
+}
+
+.movieRow--list{
+    width: 10px;
 }
 
 .movieRow--item{
